@@ -1,0 +1,47 @@
+div {
+    border: 1px solid black;
+    width: 200px;
+    height: 210px;
+    padding: 100px;
+   
+  }
+
+  
+  #crono {
+    height: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+  }
+  
+  #mensajes {
+    background-color: lightcyan;
+  }
+  
+  #tablero {
+    border-collapse: collapse; /* Colapsa bordes */
+    
+    background-color: rgb(141, 86, 31);
+    align-content: center;
+     width: 100%; 
+ 
+  }
+
+  
+  .celda {
+    width: 100px;
+    height: 100px;
+    
+    background-color: beige;
+    border: 1px rgb(148, 84, 7) solid;
+  }
+  
+  .llave {
+    background-color: goldenrod;
+  }
+  
+  .intento {
+    background-color: red;
+  }
+  
