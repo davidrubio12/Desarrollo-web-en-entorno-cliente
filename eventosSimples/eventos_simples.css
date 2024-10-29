@@ -1,0 +1,44 @@
+#start {
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#salida {
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  background-color: aqua;
+}
+
+.fila {
+  align-items: center;
+}
+
+.cuadradito {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#verde {
+  background-color: green;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#dorado {
+  background-color: gold;
+}
