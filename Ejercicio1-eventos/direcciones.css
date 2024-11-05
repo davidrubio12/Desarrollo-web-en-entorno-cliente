@@ -1,0 +1,12 @@
+.boton {
+  background-color: lightgray;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  display: inline-block;
+  margin-right: 10px;
+}
