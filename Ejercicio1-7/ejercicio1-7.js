@@ -1,4 +1,4 @@
-
+ const intxt = document.getElementById("intxt");
  const outtxt = document.getElementById("outtxt");
 
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encontrar el tesoro</title>
+    <link rel="stylesheet" href="practica1_2425_llave.css">
+
+  </head>
+  <body>
+    <script src="practica1_2425_llave.js"></script>
+    <h2>Encuentra en qué baldosa está la llave</h2>
+    <br>
+    <strong
+      >Tienes 10 posibilidades para encontrar la llave en un minuto</strong
+    >
+    <br>
+    <p>
+      Cada posición va en una fila, definida por 2 números enteros del 1 al 20,
+      separados por una coma.
+    </p>
+    <p>Debes escribir cinco posiciones válidas.</p>
+    <input type="button" onclick="start();" value="Comenzar a jugar">
+    <p></p>
+
+    <label for="posiciones">Escribe cinco posiciones: </label><br><textarea
+      id="posiciones"
+      rows="5"
+    ></textarea>
+    <br>
+    <br>
+    <input type="button" onclick="buscarLlave();" value="Busca la llave">
+    <br>
+    <div id="crono"></div>
+    <div id="mensajes">Tienes 1 minuto para encontrar la llave</div>
+    <div id="tablero"></div>
+
+
+    <script src="practica1_2425_llave.js"></script>
+  </body>
+</html>

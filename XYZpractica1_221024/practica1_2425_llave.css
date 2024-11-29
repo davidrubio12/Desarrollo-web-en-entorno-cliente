@@ -1,0 +1,37 @@
+div {
+  border: 1px black dotted;
+  margin: 10px;
+  width: 500px;
+}
+
+#crono {
+  height: 30px;
+  background-color: darkred;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#mensajes {
+  background-color: lightcyan;
+}
+
+#tablero {
+  background-color: lightyellow;
+  align-content: center;
+}
+
+.celda {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+  border: 1px rgb(148, 84, 7) solid;
+}
+
+.llave {
+  background-color: goldenrod;
+}
+
+.intento {
+  background-color: red;
+}
